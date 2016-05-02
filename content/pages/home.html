@@ -1,0 +1,199 @@
+---
+$title@: Home
+$path: /
+
+$localization:
+  path: /{locale}/
+
+works:
+- id: gci
+  title@: Global Consumer Intelligence, The University Of Tokyo
+  url@: http://gci.t.u-tokyo.ac.jp
+  desc@: Great initiative.
+  role@: Developer / Designer / Director
+
+- id: spysee
+  title@: SPYSEE
+  url@: http://spysee.jp
+  desc@: Great initiative.
+  role@: Developer / Designer / Director
+
+- id: atm
+  title@: Asia Trend Map
+  url@: http://asiatrendmap.jp
+  desc@: Great initiative.
+  role@: Designer / Planner
+
+- id: imagerous
+  title@: Imagerous
+  url@: http://imagero.us
+  desc@: Great initiative.
+  role@: Developer / Designer / Director
+
+papers:
+- title@: 飯塚修平, 濱野将司, 川上和也, 萩原静厳, 川上登福, 浜田貴之, 松尾豊. 閲覧・購買行動に着目した結婚情報サイトにおける商品間の勝敗関係の分析手法. 電子情報通信学会論文誌 D Vol.J99-D No.1 pp.109-118. 2016.
+- title@: Iitsuka, Shuhei, and Yutaka Matsuo. "Website Optimization Problem and Its Solutions." In Proceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, pp.447-456. ACM, 2015.
+- title@: 飯塚 修平, 松尾 豊. 高速なウェブサイト最適化のための KPI 設計手法の提案. 人工知能学会全国大会. 2015.
+- title@: 飯塚 修平, 松尾 豊. ウェブページ最適化問題の定式化と最適化手法の提案. 人工知能学会論文誌 Vol.29 No.5 p.460-468. 2014.
+- title@: 保住 純, 飯塚 修平, 中山 浩太郎, 高須 正和, 嶋田 絵理子, 須賀 千鶴, 西山 圭太, 松尾 豊. Webマイニングを用いたコンテンツ消費トレンド予測システム, 人工知能学会論文誌 Vol.29 No.5 p.449-459. 2014.
+- title@: 飯塚 修平, 松尾 豊. 高速なウェブページ最適化手法の提案. 人工知能学会全国大会. 2014.
+- title@: 汎用的なウェブページ最適化手法の提案 （修士論文）
+- title@: 飯塚 修平, 濱野 将司, 川上 和也, 松尾 豊, 萩原 静厳, 川上 登福, 浜田 貴之.  ゼクシィ.net におけるユーザーの行動パターンの分析. 人工知能学会全国大会. 2013.
+- title@: 飯塚修平, 大澤昇平, 松尾豊. ウェブを用いた社会ネットワークの取得. 社会と調査 第10号.
+- title@: Tani, Naoki, Danushka Bollegala, Naiwala Chandrasiri, Keisuke Okamoto, Kazunari Nawa, Shuhei Iitsuka, and Yutaka Matsuo. "Collaborative exploratory search in real-world context." In Proceedings of the 20th ACM international conference on Information and knowledge management, pp. 2137-2140. ACM, 2011.
+- title@: ソーシャルウェブサービス設計手法の確立に向けたソーシャルギフトサービス構築の試み （卒業論文）
+
+jobs:
+- name@: Google
+  url@: http://www.google.com
+  role@: Web Developer / UX Engineer
+  term@: 2014.4-present
+
+- name@: Ohma Inc.
+  url@: http://ohma-inc.com
+  role@: Executive Officer
+  term@: 2011.4-2014.3
+
+- name@: Google
+  url@: http://www.google.com
+  role@: Webmaster Internship
+  term@: 2012.8-2012.11
+
+- name@: Dumsco Inc.
+  url@: http://www.dumsco.com
+  role@: Software Engineer
+  term@: 2011.4-2011.9
+
+schools:
+- title@: PhD candidate at the Department of Technology Management for Innovation, The University of Tokyo
+  term@: 2014-present
+- title@: Master degree of engineering at the Department of Technology Management for Innovation, The University of Tokyo
+  term@: 2012-2014
+- title@: Bachelor degree of engineering at the Program for Social Innovation, The University of Tokyo
+  term@: 2008-2012
+- title@: Mekei High School &amp; Junior High School
+  term@: 2002-2008
+
+skills:
+- name: Python
+  libraries:
+  - numpy /scipy
+  - scikit-learn / pandas
+  - iPython / Jupyter
+  - Google App Engine
+- name: Javascript
+  libraries:
+  - Angular.JS
+  - Google Closure
+  - d3.js
+  - Three.js (+ WebVR)
+- name: PHP
+  libraries:
+  - FuelPHP
+  - WordPress
+- name: HTML / CSS
+- name: MySQL
+
+teachings:
+- name: UT Startup Gym
+  url: http://ut-gym.jp
+  desc: I organized this study group.
+- name: Web Engineering and Business Model, the University of Tokyo
+  url: http://tmi.t.u-tokyo.ac.jp/
+  desc: I did TA.
+
+miscs:
+- url@: http://www.slideshare.net/tushuhei/
+  name@: Slideshare
+- url@: http://pinterest.com/tushuhei/myillustrationworks/
+  name@: Illustration Works (Pinterest)
+- url@: http://soundcloud.com/tushuhei/
+  name@: SoundCloud
+- url@: http://d.hatena.ne.jp/tushuhei/
+  name@: Blog
+
+---
+<p>
+Shuhei creates innovative websites through logical and analytical manner.
+He is also a passionate lifetime learner to seek opportunities to bring machine learning technology into intelligent &amp; effective web development.
+</p>
+<section id="work-section">
+  <h2>Works</h2>
+  {% for work in doc.works %}
+    <div class="work">
+      <div class="abstract">
+        <h2><a href="{{_(work.url)}}" target="_blank">{{_(work.title)}}</a></h2>
+        <p>{{_(work.desc)}}</p>
+      </div>
+      <div class="media">
+        <a href="{{_(work.url)}}" target="_blank">
+          <img src="/static/images/{{_(work.id)}}.png">
+        </a>
+      </div>
+      <div class="detail">
+        <h3>{{_(work.role)}}</h3>
+      </div>
+    </div>
+  {% endfor %}
+</section>
+
+<section id="paper-section">
+  <h2>Papers</h2>
+  <ul class="papers">
+  {% for paper in doc.papers %}
+    <li>{{_(paper.title)}}</li>
+  {% endfor %}
+  </ul>
+</section>
+
+<section id="about-section">
+  <h2>About - Shuhei Iitsuka 飯塚修平</h2>
+
+  <h3>Work Experience</h3>
+  <ul class="jobs">
+  {% for job in doc.jobs %}
+    <li><a href="{{_(job.url)}}" target="_blank">{{_(job.name)}}</a> {{_(job.role)}} <small>{{_(job.term)}}</small></a></li>
+  {% endfor %}
+  </ul>
+
+  <h3>Education</h3>
+  <ul class="schools">
+  {% for school in doc.schools %}
+    <li>{{_(school.title)}} <small>{{_(school.term)}}</small>
+  {% endfor %}
+  </ul>
+
+  <h3>Teaching Experience</h3>
+  {% for teaching in doc.teachings %}
+    <h4><a href="{{_(teaching.url)}}" target="_blank">{{_(teaching.name)}}</a></h4>
+    <p>{{_(teaching.desc)}}</p>
+  {% endfor %}
+
+  <h3>Programming Skills</h3>
+  <ul class="skills">
+  {% for skill in doc.skills %}
+    <li>{{_(skill.name)}}</li>
+    {% if skill.libraries %}
+      <ul>
+      {% for library in skill.libraries %}
+        <li>{{_(library)}}</li>
+      {% endfor %}
+      </ul>
+    {% endif %}
+  {% endfor %}
+  </ul>
+
+  <h3>Misc Links</h3>
+  <ul class="misc-links">
+  {% for link in doc.miscs %}
+    <li><a href="{{_(link.url)}}" target="_blank">{{_(link.name)}}</a></li>
+  {% endfor %}
+  </ul>
+
+  <h3>Contacts</h3>
+  <ul class="contacts">
+    <li>Mail: <a href="mailto:tushuhei@gmail.com" target="_blank">tushuhei@gmail.com</a></li>
+    <li>Twitter: <a href="//twitter.com/tushuhei" target="_blank">@tushuhei</a></li>
+    <li>Facebook: <a href="//www.facebook.com/tushuhei" target="_blank">Shuhei Iitsuka</a></li>
+  </ul>
+</section>

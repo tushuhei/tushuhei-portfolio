@@ -1,0 +1,241 @@
+#: /content/pages/home.html
+msgid "2002-2008"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "2008-2012"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "2011.4-2011.9"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "2011.4-2014.3"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "2012-2014"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "2012.8-2012.11"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "2014-present"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "2014.4-present"
+msgstr ""
+
+#: /content/pages/another.md
+msgid "Another Page"
+msgstr "別のページ"
+
+#: /content/pages/another.md:4
+msgid "Another page."
+msgstr ""
+
+#: /content/pages/home.html
+msgid "Asia Trend Map"
+msgstr ""
+
+#: /content/pages/home.html
+msgid ""
+"Bachelor degree of engineering at the Program for Social Innovation, The "
+"University of Tokyo"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "Blog"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "Designer / Planner"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "Developer / Designer / Director"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "Dumsco Inc."
+msgstr ""
+
+#: /content/pages/home.html
+msgid "Executive Officer"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "Global Consumer Intelligence, The University Of Tokyo"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "Google"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "Great initiative."
+msgstr ""
+
+#: /content/pages/home.html
+msgid "Home"
+msgstr "ホーム"
+
+#: /content/pages/home.html
+msgid ""
+"Iitsuka, Shuhei, and Yutaka Matsuo. \"Website Optimization Problem and Its "
+"Solutions.\" In Proceedings of the 21th ACM SIGKDD International Conference "
+"on Knowledge Discovery and Data Mining, pp.447-456. ACM, 2015."
+msgstr ""
+
+#: /content/pages/home.html
+msgid "Illustration Works (Pinterest)"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "Imagerous"
+msgstr ""
+
+#: /content/pages/home.html
+msgid ""
+"Master degree of engineering at the Department of Technology Management for "
+"Innovation, The University of Tokyo"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "Mekei High School &amp; Junior High School"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "Ohma Inc."
+msgstr ""
+
+#: /content/pages/home.html
+msgid ""
+"PhD candidate at the Department of Technology Management for Innovation, The "
+"University of Tokyo"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "SPYSEE"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "Slideshare"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "Software Engineer"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "SoundCloud"
+msgstr ""
+
+#: /content/pages/home.html
+msgid ""
+"Tani, Naoki, Danushka Bollegala, Naiwala Chandrasiri, Keisuke Okamoto, "
+"Kazunari Nawa, Shuhei Iitsuka, and Yutaka Matsuo. \"Collaborative exploratory"
+" search in real-world context.\" In Proceedings of the 20th ACM international"
+" conference on Information and knowledge management, pp. 2137-2140. ACM, "
+"2011."
+msgstr ""
+
+#: /content/pages/home.html
+msgid "Web Developer / UX Engineer"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "Webmaster Internship"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "http://asiatrendmap.jp"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "http://d.hatena.ne.jp/tushuhei/"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "http://gci.t.u-tokyo.ac.jp"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "http://imagero.us"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "http://ohma-inc.com"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "http://pinterest.com/tushuhei/myillustrationworks/"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "http://soundcloud.com/tushuhei/"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "http://spysee.jp"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "http://www.dumsco.com"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "http://www.google.com"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "http://www.slideshare.net/tushuhei/"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "ソーシャルウェブサービス設計手法の確立に向けたソーシャルギフトサービス構築の試み （卒業論文）"
+msgstr ""
+
+#: /content/pages/home.html
+msgid ""
+"保住 純, 飯塚 修平, 中山 浩太郎, 高須 正和, 嶋田 絵理子, 須賀 千鶴, 西山 圭太, 松尾 豊. "
+"Webマイニングを用いたコンテンツ消費トレンド予測システム, 人工知能学会論文誌 Vol.29 No.5 p.449-459. 2014."
+msgstr ""
+
+#: /content/pages/home.html
+msgid "汎用的なウェブページ最適化手法の提案 （修士論文）"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "飯塚 修平, 松尾 豊. ウェブページ最適化問題の定式化と最適化手法の提案. 人工知能学会論文誌 Vol.29 No.5 p.460-468. 2014."
+msgstr ""
+
+#: /content/pages/home.html
+msgid "飯塚 修平, 松尾 豊. 高速なウェブサイト最適化のための KPI 設計手法の提案. 人工知能学会全国大会. 2015."
+msgstr ""
+
+#: /content/pages/home.html
+msgid "飯塚 修平, 松尾 豊. 高速なウェブページ最適化手法の提案. 人工知能学会全国大会. 2014."
+msgstr ""
+
+#: /content/pages/home.html
+msgid ""
+"飯塚 修平, 濱野 将司, 川上 和也, 松尾 豊, 萩原 静厳, 川上 登福, 浜田 貴之.  ゼクシィ.net におけるユーザーの行動パターンの分析."
+" 人工知能学会全国大会. 2013."
+msgstr ""
+
+#: /content/pages/home.html
+msgid "飯塚修平, 大澤昇平, 松尾豊. ウェブを用いた社会ネットワークの取得. 社会と調査 第10号."
+msgstr ""
+
+#: /content/pages/home.html
+msgid ""
+"飯塚修平, 濱野将司, 川上和也, 萩原静厳, 川上登福, 浜田貴之, 松尾豊. "
+"閲覧・購買行動に着目した結婚情報サイトにおける商品間の勝敗関係の分析手法. 電子情報通信学会論文誌 D Vol.J99-D No.1 "
+"pp.109-118. 2016."
+msgstr ""
+
