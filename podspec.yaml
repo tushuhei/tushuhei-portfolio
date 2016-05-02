@@ -9,5 +9,7 @@ localization:
 static_dirs:
 - static_dir: /source/images/
   serve_at: /static/images/
+- static_dir: /source/rsc/
+  serve_at: /static/rsc/
 - static_dir: /dist/
   serve_at: /static/

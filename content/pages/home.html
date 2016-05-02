@@ -31,17 +31,32 @@ works:
   role@: Developer / Designer / Director
 
 papers:
-- title@: 飯塚修平, 濱野将司, 川上和也, 萩原静厳, 川上登福, 浜田貴之, 松尾豊. 閲覧・購買行動に着目した結婚情報サイトにおける商品間の勝敗関係の分析手法. 電子情報通信学会論文誌 D Vol.J99-D No.1 pp.109-118. 2016.
-- title@: Iitsuka, Shuhei, and Yutaka Matsuo. "Website Optimization Problem and Its Solutions." In Proceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, pp.447-456. ACM, 2015.
-- title@: 飯塚 修平, 松尾 豊. 高速なウェブサイト最適化のための KPI 設計手法の提案. 人工知能学会全国大会. 2015.
-- title@: 飯塚 修平, 松尾 豊. ウェブページ最適化問題の定式化と最適化手法の提案. 人工知能学会論文誌 Vol.29 No.5 p.460-468. 2014.
-- title@: 保住 純, 飯塚 修平, 中山 浩太郎, 高須 正和, 嶋田 絵理子, 須賀 千鶴, 西山 圭太, 松尾 豊. Webマイニングを用いたコンテンツ消費トレンド予測システム, 人工知能学会論文誌 Vol.29 No.5 p.449-459. 2014.
-- title@: 飯塚 修平, 松尾 豊. 高速なウェブページ最適化手法の提案. 人工知能学会全国大会. 2014.
-- title@: 汎用的なウェブページ最適化手法の提案 （修士論文）
-- title@: 飯塚 修平, 濱野 将司, 川上 和也, 松尾 豊, 萩原 静厳, 川上 登福, 浜田 貴之.  ゼクシィ.net におけるユーザーの行動パターンの分析. 人工知能学会全国大会. 2013.
-- title@: 飯塚修平, 大澤昇平, 松尾豊. ウェブを用いた社会ネットワークの取得. 社会と調査 第10号.
-- title@: Tani, Naoki, Danushka Bollegala, Naiwala Chandrasiri, Keisuke Okamoto, Kazunari Nawa, Shuhei Iitsuka, and Yutaka Matsuo. "Collaborative exploratory search in real-world context." In Proceedings of the 20th ACM international conference on Information and knowledge management, pp. 2137-2140. ACM, 2011.
-- title@: ソーシャルウェブサービス設計手法の確立に向けたソーシャルギフトサービス構築の試み （卒業論文）
+- type: International Conferences
+  titles:
+    - title: Shuhei Iitsuka and Yutaka Matsuo. "Website Optimization Problem and Its Solutions." In Proceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, pp.447-456. ACM, 2015.
+      pdf: /static/rsc/kdd2015.pdf
+    - title: Naoki Tani, Danushka Bollegala, Naiwala Chandrasiri, Keisuke Okamoto, Kazunari Nawa, Shuhei Iitsuka, and Yutaka Matsuo. "Collaborative exploratory search in real-world context." In Proceedings of the 20th ACM international conference on Information and knowledge management, pp. 2137-2140. ACM, 2011.
+- type: Journals
+  titles:
+    - title: Shuhei Iitsuka, Masashi Hamano, Kazuya Kawakami, Seigen Hagiwara, Takayoshi Kawakami, Takayuki Hamada, and Yutaka Matsuo. "A Product Network Based on Browsing and Purchase Behavior in E-Commerce." Transactions of the Institute of Electronics, Information and Communication Engineers. Vol.J99-D No.1 pp.109-118. 2016.
+      pdf: /static/rsc/win-lose.pdf
+    - title: Shuhei Iitsuka and Yutaka Matsuo. "Webpage Optimization Problem and Its Optimization Method." Transactions of the Japanese Society for Artificial Intelligence. Vol.29 No.5 pp.460-468. 2014.
+      pdf: /static/rsc/webpage-optimization.pdf
+    - title: Jun Hozumi, Shuhei Iitsuka, Kotaro Nakayama, Masakazu Takasu, Eriko Shimada, Chizuru Suga, Keita Nishiyama, Yutaka Matsuo. "Consumer Trend Prediction System Using Web Mining." Transactions of the Japanese Society for Artificial Intelligence. Vol.29 No.5 pp.449-459. 2014.
+- type: Domestic Conferences
+  titles:
+    - title: Shuhei Iitsuka and Yutaka Matsuo. "Alternative KPI Design Method for Rapid Website Optimization." In Proceedings of the 29th Annual Conference of the Japanese Society for Artificial Intelligence. 2015.
+      pdf: https://kaigi.org/jsai/webprogram/2015/pdf/3C3-1.pdf
+    - title: Shuhei Iitsuka and Yutaka Matsuo. "Fast Webpage Optimization Method." In Proceedings of the 28th Annual Conference of the Japanese Society for Artificial Intelligence. 2014.
+      pdf: https://kaigi.org/jsai/webprogram/2014/pdf/574.pdf
+    - title: Shuhei Iitsuka, Masashi Hamano, Kazuya Kawakami, Yutaka Matsuo, Seigen Hagiwara, Takayoshi Kawakami, and Takayuki Hamada. "User Behavior Analysis on Zexy.net." In Proceedings of the 27th Annual Conference of the Japanese Society for Artificial Intelligence. 2013.
+      pdf: https://kaigi.org/jsai/webprogram/2013/pdf/320.pdf
+- type: Other papers
+  titles:
+    - title: Shuhei Iitsuka. "Proposal of Generalized Webpage Optimization Method." (Master thesis)
+      pdf: /static/rsc/tushuhei_master_thesis.pdf
+    - title: Shuhei Iitsuka. "Study of Social Web Service Development Methodology." (Bachelor thesis)
+      pdf: /static/rsc/tushuhei_bachelor_thesis.pdf
 
 jobs:
 - name@: Google
@@ -137,12 +152,15 @@ miscs:
 </section>
 
 <section id="paper-section">
-  <h2>Research Papers</h2>
-  <ul class="papers">
+  <h2>Publications</h2>
   {% for paper in doc.papers %}
-    <li>{{_(paper.title)}}</li>
+    <h3>{{paper.type}}</h3>
+    <ul>
+    {% for t in paper.titles %}
+      <li>{{t.title}} {% if t.pdf %}[<a href="{{t.pdf }}">PDF</a>]{% endif %}</li>
+    {% endfor %}
+    </ul>
   {% endfor %}
-  </ul>
 </section>
 
 <section id="about-section">
