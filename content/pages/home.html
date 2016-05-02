@@ -9,25 +9,25 @@ works:
 - id: gci
   title@: Global Consumer Intelligence, The University Of Tokyo
   url@: http://gci.t.u-tokyo.ac.jp
-  desc@: Great initiative.
+  desc@: Global Consumer Intelligence is an endowed chair to develop data scientists with advanced data analysis and business development skills from the University of Tokyo. I created a website for this program from scratch with my design / engineering expertise.
   role@: Developer / Designer / Director
 
 - id: spysee
   title@: SPYSEE
   url@: http://spysee.jp
-  desc@: Great initiative.
+  desc@: SPYSEE is a search engine service specialized for human profiles. As a "growth hacker", I worked on this website with the responsibility to improve the profitability. We succeeded to bring this website to the next level in terms of usability and business performance by exploiting A/B testing methodology heavily.
   role@: Developer / Designer / Director
 
 - id: atm
   title@: Asia Trend Map
   url@: http://asiatrendmap.jp
-  desc@: Great initiative.
-  role@: Designer / Planner
+  desc@: Asia Trend Map forecasts the popularity of Japanese pop-culture contents' such as Manga, Anime, and Games in Asia region. I supported website development by bridging between the web interface and machine learning algorithms in the back-end.
+  role@: Development Support / Planner
 
 - id: imagerous
   title@: Imagerous
   url@: http://imagero.us
-  desc@: Great initiative.
+  desc@: An experimental website which showcases images with a theme. See and enjoy. That's it.
   role@: Developer / Designer / Director
 
 papers:
@@ -77,7 +77,7 @@ schools:
 skills:
 - name: Python
   libraries:
-  - numpy /scipy
+  - numpy / scipy
   - scikit-learn / pandas
   - iPython / Jupyter
   - Google App Engine
@@ -97,10 +97,12 @@ skills:
 teachings:
 - name: UT Startup Gym
   url: http://ut-gym.jp
-  desc: I organized this study group.
+  desc: Organizer of this regular study session to develop entrepreneurs with web service development skills.
+  id: utgym
 - name: Web Engineering and Business Model, the University of Tokyo
   url: http://tmi.t.u-tokyo.ac.jp/
-  desc: I did TA.
+  desc: Teaching assistant at a course for graduated students to foster web development skills.
+  id: ut
 
 miscs:
 - url@: http://www.slideshare.net/tushuhei/
@@ -113,17 +115,13 @@ miscs:
   name@: Blog
 
 ---
-<p>
-Shuhei creates innovative websites through logical and analytical manner.
-He is also a passionate lifetime learner to seek opportunities to bring machine learning technology into intelligent &amp; effective web development.
-</p>
+
 <section id="work-section">
-  <h2>Works</h2>
+  <h2>Website Works</h2>
   {% for work in doc.works %}
     <div class="work">
       <div class="abstract">
-        <h2><a href="{{_(work.url)}}" target="_blank">{{_(work.title)}}</a></h2>
-        <p>{{_(work.desc)}}</p>
+        <h3><a href="{{_(work.url)}}" target="_blank">{{_(work.title)}}</a></h3>
       </div>
       <div class="media">
         <a href="{{_(work.url)}}" target="_blank">
@@ -131,14 +129,15 @@ He is also a passionate lifetime learner to seek opportunities to bring machine 
         </a>
       </div>
       <div class="detail">
-        <h3>{{_(work.role)}}</h3>
+        <h4>Worked as: {{_(work.role)}}</h4>
+        <p>{{_(work.desc)}}</p>
       </div>
     </div>
   {% endfor %}
 </section>
 
 <section id="paper-section">
-  <h2>Papers</h2>
+  <h2>Research Papers</h2>
   <ul class="papers">
   {% for paper in doc.papers %}
     <li>{{_(paper.title)}}</li>
@@ -147,7 +146,8 @@ He is also a passionate lifetime learner to seek opportunities to bring machine 
 </section>
 
 <section id="about-section">
-  <h2>About - Shuhei Iitsuka 飯塚修平</h2>
+  <h2>About - Shuhei Iitsuka <span class="ww">飯塚 修平</span></h2>
+  <img src="/static/images/shuhei.png" class="profile-image">
 
   <h3>Work Experience</h3>
   <ul class="jobs">
@@ -165,8 +165,11 @@ He is also a passionate lifetime learner to seek opportunities to bring machine 
 
   <h3>Teaching Experience</h3>
   {% for teaching in doc.teachings %}
-    <h4><a href="{{_(teaching.url)}}" target="_blank">{{_(teaching.name)}}</a></h4>
-    <p>{{_(teaching.desc)}}</p>
+    <div class="teaching">
+      <img src="/static/images/{{_(teaching.id)}}.png">
+      <h4><a href="{{_(teaching.url)}}" target="_blank">{{_(teaching.name)}}</a></h4>
+      <p>{{_(teaching.desc)}}</p>
+    </div>
   {% endfor %}
 
   <h3>Programming Skills</h3>
@@ -192,8 +195,9 @@ He is also a passionate lifetime learner to seek opportunities to bring machine 
 
   <h3>Contacts</h3>
   <ul class="contacts">
-    <li>Mail: <a href="mailto:tushuhei@gmail.com" target="_blank">tushuhei@gmail.com</a></li>
-    <li>Twitter: <a href="//twitter.com/tushuhei" target="_blank">@tushuhei</a></li>
-    <li>Facebook: <a href="//www.facebook.com/tushuhei" target="_blank">Shuhei Iitsuka</a></li>
+    <li>Mail: tushuhei[at]gmail.com</li>
+    <li>LinkedIn: <a href="https://jp.linkedin.com/in/tushuhei" target="_blank">Shuhei Iitsuka</a></li>
+    <li>Twitter: <a href="https://twitter.com/tushuhei" target="_blank">@tushuhei</a></li>
+    <li>Facebook: <a href="https://www.facebook.com/tushuhei" target="_blank">Shuhei Iitsuka</a></li>
   </ul>
 </section>
