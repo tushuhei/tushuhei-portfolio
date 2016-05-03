@@ -6,15 +6,12 @@ handlers:
 - url: /favicon\.ico
   static_files: favicon.ico
   upload: favicon\.ico
-- url: /rsc
-  static_dir: static/files
-- url: /static
-  static_dir: static
-- url: .*
-  script: main.app
-
-libraries:
-- name: webapp2
-  version: "2.5.2"
-- name: jinja2
-  version: latest
+- url: /
+  static_files: build/index.html
+  upload: build/index.html
+- url: /ja
+  static_files: build/ja/index.html
+  upload: build/ja/index.html
+- url: /static/(.*)
+  static_files: build/static/\1
+  upload: build/static/(.*)
