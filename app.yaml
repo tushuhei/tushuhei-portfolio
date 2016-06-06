@@ -12,6 +12,8 @@ handlers:
 - url: /ja
   static_files: build/ja/index.html
   upload: build/ja/index.html
+- url: /rsc/(.*)
+  script: main.app
 - url: /static/(.*)
   static_files: build/static/\1
   upload: build/static/(.*)
