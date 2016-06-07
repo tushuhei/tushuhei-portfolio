@@ -9,7 +9,7 @@ handlers:
 - url: /
   static_files: build/index.html
   upload: build/index.html
-- url: /ja
+- url: /ja/
   static_files: build/ja/index.html
   upload: build/ja/index.html
 - url: /rsc/(.*)
