@@ -13,3 +13,7 @@ static_dirs:
   serve_at: /static/rsc/
 - static_dir: /dist/
   serve_at: /static/
+
+extensions:
+  jinja2:
+  - extensions.wordwrap.Wordwrap
