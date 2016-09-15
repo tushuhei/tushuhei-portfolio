@@ -1,0 +1,31 @@
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+  secure: always
+
+- url: /
+  static_files: build/index.html
+  upload: build/index.html
+  secure: always
+
+- url: /ja/
+  static_files: build/ja/index.html
+  upload: build/ja/index.html
+  secure: always
+
+- url: /rsc/(.*)
+  script: main.app
+  secure: always
+
+- url: /static/(.*)
+  static_files: build/static/\1
+  upload: build/static/(.*)
+  secure: always
+
+skip_files:
+- node_modules/*
