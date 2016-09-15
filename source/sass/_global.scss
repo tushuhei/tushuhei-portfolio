@@ -21,6 +21,10 @@ header {
   padding-top: 60px;
 }
 
+header h2:lang(ja) {
+  font-weight: normal;
+}
+
 p {
   font-weight: lighter;
 }
@@ -31,4 +35,9 @@ section {
 
 .ww {
   display: inline-block;
+}
+
+footer {
+  padding-bottom: 50px;
+  text-align: right;
 }
