@@ -1,6 +1,6 @@
 from jinja2 import Markup, contextfilter
+from jinja2.ext import Extension
 import budou
-import jinja2
 
 budou_parser = budou.authenticate('budou-cloud.json')
 
@@ -13,7 +13,7 @@ def do_budou(context, value):
   else:
     return value
 
-class Wordwrap(jinja2.ext.Extension):
+class Wordwrap(Extension):
 
   def __init__(self, environment):
     super(Wordwrap, self).__init__(environment)

@@ -7,3 +7,4 @@ bower_components
 *.pyc
 budou-cache.db
 budou-cloud.json
+*.swp
