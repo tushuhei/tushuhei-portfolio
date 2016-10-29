@@ -38,8 +38,7 @@ msgstr "飯塚 修平 (Shuhei Iitsuka)"
 msgid ""
 "An experimental website which showcases images with a theme. See and enjoy. "
 "That's it."
-msgstr ""
-"画像をまとめる、眺める、つかう。新しい画像キュレーションサービスです。"
+msgstr "画像をまとめる、眺める、つかう。新しい画像キュレーションサービスです。"
 
 #: /content/pages/home.html
 msgid "Asia Trend Map"
@@ -50,17 +49,13 @@ msgid ""
 "Asia Trend Map forecasts the popularity of Japanese pop-culture contents "
 "(e.g. Manga, Anime, and Games) in Asia region. I directed the development "
 "colalborating with a Japanese engineering agency."
-msgstr ""
-"アジアトレンドマップはデータマイニング技術を用いて、今後のアジア地域における"
-"日本のポップカルチャーコンテンツ（漫画、アニメ、ゲームなど）の人気推移を予測"
-"します。ウェブサイトと機械学習アルゴリズムの連携部分をサポートしました。"
+msgstr "アジアトレンドマップはデータマイニング技術を用いて、今後のアジア地域における日本のポップカルチャーコンテンツ（漫画、アニメ、ゲームなど）の人気推移を予測します。ウェブサイトと機械学習アルゴリズムの連携部分をサポートしました。"
 
 #: /content/pages/home.html
 msgid ""
 "Assisted and gave some lectures as a TA in front of graduated students in the"
 " University of Tokyo to grow thier web development skills."
-msgstr "講師およびメンターとして、ウェブサービスを構築する大学院生のサポート"
-"を行っています。"
+msgstr "講師およびメンターとして、ウェブサービスを構築する大学院生のサポートを行っています。"
 
 #: /content/pages/home.html
 msgid ""
@@ -80,9 +75,7 @@ msgstr ""
 msgid ""
 "Budou automatically translates Japanese sentences into organized HTML code "
 "with meaningful line breaks using machine learning technology."
-msgstr ""
-"Budou は日本語の文章を自然言語解析技術を用いて解析し、自然な改行を提供する "
-"HTML コードを出力します。"
+msgstr "Budou は日本語の文章を自然言語解析技術を用いて解析し、自然な改行を提供する HTML コードを出力します。"
 
 #: /content/pages/home.html:81
 msgid "Contacts"
@@ -116,9 +109,7 @@ msgstr "執行役員"
 msgid ""
 "Founder of this study group which aims to produce entrepreneurs with "
 "practical web development skills from the Univresity of Tokyo."
-msgstr ""
-"UT Startup Gym の代表として、ウェブサービスを企画して立ち上げる力を養成する"
-"勉強会を学生・社会人向けに運営していました。"
+msgstr "UT Startup Gym の代表として、ウェブサービスを企画して立ち上げる力を養成する勉強会を学生・社会人向けに運営していました。"
 
 #: /content/pages/home.html
 msgid "Global Consumer Intelligence, The University Of Tokyo"
@@ -128,19 +119,25 @@ msgstr "東京大学 グローバル消費インテリジェンス寄付講座"
 msgid "Google"
 msgstr ""
 
+#: /views/base.html:34
+msgid ""
+"I build <span class=\"headline-code-color\">websites</span>, write <span "
+"class=\"headline-website-color\">papers</span>, and make some <span class"
+"=\"headline-latte-color\">latte art</span>."
+msgstr ""
+"<span class=\"ww\"><span class=\"headline-code-color\">コード</span>と</span>"
+"<span class=\"ww\"><span class=\"headline-website-color\">論文</span>と</span>"
+"<span class=\"ww\"><span class=\"headline-latte-color\">ラテアート</span>を</span>"
+"<span class=\"ww\">描いてます。</span>"
+
 #: /content/pages/home.html
 msgid ""
 "I built a website for Global Consumer Intelligence, a donated fund laboratory"
 " in the Univesity of Tokyo, from scratch playing my web design / engineering "
 "expertise."
 msgstr ""
-"東京大学グローバル消費インテリジェンス寄付講座は、データ分析スキルに長けた"
-"CMO (Chief Marketing Officer) となる人材を輩出します。本講座のウェブサイトの"
-"企画・デザイン・開発すべてに携わりました。"
-
-#: /views/base.html:34
-msgid "I write codes, build websites, and make some latte art."
-msgstr "コードと論文とラテアートを描いてます。"
+"東京大学グローバル消費インテリジェンス寄付講座は、データ分析スキルに長けたCMO (Chief Marketing Officer) "
+"となる人材を輩出します。本講座のウェブサイトの企画・デザイン・開発すべてに携わりました。"
 
 #: /content/pages/home.html
 msgid "Imagerous"
@@ -241,9 +238,9 @@ msgid ""
 "on this website as a \"growth hacker\" and brought the website to the next "
 "level in a point of usability and business performance by exploiting A/B "
 "testing methodology a lot."
-msgstr "あのひと検索スパイシーは人物のプロフィールとつながりに特化した検索"
-"サービスです。サービス責任者として、A/B テストを用いたウェブサイトのデザイン"
-"改善および収益性改善に取り組みました。"
+msgstr ""
+"あのひと検索スパイシーは人物のプロフィールとつながりに特化した検索サービスです。サービス責任者として、A/B "
+"テストを用いたウェブサイトのデザイン改善および収益性改善に取り組みました。"
 
 #: /content/pages/home.html
 msgid ""
@@ -337,9 +334,8 @@ msgid ""
 " machine learning technology into intelligent &amp; effective web "
 "development."
 msgstr ""
-"データマイニングおよび機械学習をウェブサイト・ウェブサービス開発に応用する"
-"ことに興味があります。Google ではウェブエンジニアとしてウェブサイト製作に"
-"取り組み、東京大学では博士学生として機械学習の研究に取り組んでいます。"
+"データマイニングおよび機械学習をウェブサイト・ウェブサービス開発に応用することに興味があります。Google "
+"ではウェブエンジニアとしてウェブサイト製作に取り組み、東京大学では博士学生として機械学習の研究に取り組んでいます。"
 
 #: /content/pages/home.html
 msgid "Software Engineer"

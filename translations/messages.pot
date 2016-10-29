@@ -119,15 +119,18 @@ msgstr ""
 msgid "Google"
 msgstr ""
 
+#: /views/base.html:34
+msgid ""
+"I build <span class=\"headline-code-color\">websites</span>, write <span "
+"class=\"headline-website-color\">papers</span>, and make some <span class"
+"=\"headline-latte-color\">latte art</span>."
+msgstr ""
+
 #: /content/pages/home.html
 msgid ""
 "I built a website for Global Consumer Intelligence, a donated fund laboratory"
 " in the Univesity of Tokyo, from scratch playing my web design / engineering "
 "expertise."
-msgstr ""
-
-#: /views/base.html:34
-msgid "I write codes, build websites, and make some latte art."
 msgstr ""
 
 #: /content/pages/home.html
