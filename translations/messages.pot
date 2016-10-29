@@ -46,10 +46,15 @@ msgstr ""
 
 #: /content/pages/home.html
 msgid ""
-"Asia Trend Map forecasts the popularity of Japanese pop-culture contents' "
-"such as Manga, Anime, and Games in Asia region. I supported website "
-"development by bridging between the web interface and machine learning "
-"algorithms in the back-end."
+"Asia Trend Map forecasts the popularity of Japanese pop-culture contents "
+"(e.g. Manga, Anime, and Games) in Asia region. I directed the development "
+"colalborating with a Japanese engineering agency."
+msgstr ""
+
+#: /content/pages/home.html
+msgid ""
+"Assisted and gave some lectures as a TA in front of graduated students in the"
+" University of Tokyo to grow thier web development skills."
 msgstr ""
 
 #: /content/pages/home.html
@@ -62,6 +67,16 @@ msgstr ""
 msgid "Brand Studio APAC Web Developer / UX Engineer"
 msgstr ""
 
+#: /content/pages/home.html
+msgid "Budou"
+msgstr ""
+
+#: /content/pages/home.html
+msgid ""
+"Budou automatically translates Japanese sentences into organized HTML code "
+"with meaningful line breaks using machine learning technology."
+msgstr ""
+
 #: /content/pages/home.html:81
 msgid "Contacts"
 msgstr ""
@@ -71,7 +86,7 @@ msgid "Developer / Designer / Director"
 msgstr ""
 
 #: /content/pages/home.html
-msgid "Development Support / Planner"
+msgid "Direction"
 msgstr ""
 
 #: /content/pages/home.html
@@ -92,10 +107,8 @@ msgstr ""
 
 #: /content/pages/home.html
 msgid ""
-"Global Consumer Intelligence is an endowed chair to develop data scientists "
-"with advanced data analysis and business development skills from the "
-"University of Tokyo. I created a website for this program from scratch with "
-"my design / engineering expertise."
+"Founder of this study group which aims to produce entrepreneurs with "
+"practical web development skills from the Univresity of Tokyo."
 msgstr ""
 
 #: /content/pages/home.html
@@ -104,6 +117,13 @@ msgstr ""
 
 #: /content/pages/home.html
 msgid "Google"
+msgstr ""
+
+#: /content/pages/home.html
+msgid ""
+"I built a website for Global Consumer Intelligence, a donated fund laboratory"
+" in the Univesity of Tokyo, from scratch playing my web design / engineering "
+"expertise."
 msgstr ""
 
 #: /views/base.html:34
@@ -149,7 +169,7 @@ msgid ""
 msgstr ""
 
 #: /content/pages/home.html
-msgid "Mekei High School &amp; Junior High School"
+msgid "Meikei Junior High &amp; High School"
 msgstr ""
 
 #: /content/pages/home.html:74
@@ -170,12 +190,6 @@ msgid "Ohma Inc."
 msgstr ""
 
 #: /content/pages/home.html
-msgid ""
-"Organizer of this regular study session to develop entrepreneurs with web "
-"service development skills."
-msgstr ""
-
-#: /content/pages/home.html
 msgid "Other papers"
 msgstr ""
 
@@ -189,8 +203,16 @@ msgstr ""
 msgid "Programming Skills"
 msgstr ""
 
+#: /content/pages/home.html
+msgid "Project Lead"
+msgstr ""
+
 #: /content/pages/home.html:22
 msgid "Publications"
+msgstr ""
+
+#: /content/pages/home.html:14
+msgid "Role"
 msgstr ""
 
 #: /content/pages/home.html
@@ -199,11 +221,10 @@ msgstr ""
 
 #: /content/pages/home.html
 msgid ""
-"SPYSEE is a search engine service specialized for human profiles. As a "
-"\"growth hacker\", I worked on this website with the responsibility to "
-"improve the profitability. We succeeded to bring this website to the next "
-"level in terms of usability and business performance by exploiting A/B "
-"testing methodology heavily."
+"SPYSEE is a search engine service specialized for human profiles.  I worked "
+"on this website as a \"growth hacker\" and brought the website to the next "
+"level in a point of usability and business performance by exploiting A/B "
+"testing methodology a lot."
 msgstr ""
 
 #: /content/pages/home.html
@@ -303,12 +324,6 @@ msgid "Teaching Experience"
 msgstr ""
 
 #: /content/pages/home.html
-msgid ""
-"Teaching assistant at a course for graduated students to foster web "
-"development skills."
-msgstr ""
-
-#: /content/pages/home.html
 msgid "UT Startup Gym"
 msgstr ""
 
@@ -326,9 +341,5 @@ msgstr ""
 
 #: /content/pages/home.html:37
 msgid "Work Experience"
-msgstr ""
-
-#: /content/pages/home.html:14
-msgid "Worked as"
 msgstr ""
 
