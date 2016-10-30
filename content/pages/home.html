@@ -157,8 +157,8 @@ miscs:
         <h3><a href="{{_(work.url)}}" target="_blank">{{_(work.title)}}</a></h3>
       </div>
       <div class="media">
-        <a href="{{_(work.url)}}" target="_blank">
-          <img src="/static/images/{{_(work.img)}}">
+        <a href="{{_(work.url)}}" target="_blank" title="{{_(work.title)}}">
+          <img src="/static/images/{{_(work.img)}}" alt="">
         </a>
       </div>
       <div class="detail">
@@ -175,7 +175,7 @@ miscs:
     <h3>{{_(paper.type)}}</h3>
     <ul>
     {% for t in paper.titles %}
-      <li>{{_(t.title)}} {% if t.pdf %}[<a href="{{t.pdf}}">PDF</a>]{% endif %}</li>
+      <li>{{_(t.title)}} {% if t.pdf %}[<a href="{{t.pdf}}" title="{{_(t.title)}} PDF">PDF</a>]{% endif %}</li>
     {% endfor %}
     </ul>
   {% endfor %}
@@ -183,7 +183,7 @@ miscs:
 
 <section id="about-section">
   <h2>{{_('About - Shuhei Iitsuka <span class="ww">飯塚 修平</span>')}}</h2>
-  <img src="/static/images/shuhei.png" class="profile-image">
+  <img src="/static/images/shuhei.png" class="profile-image" alt="{{_("Shuhei Iitsuka")}}">
 
   <h3>{{_('Work Experience')}}</h3>
   <ul class="jobs">
@@ -202,7 +202,7 @@ miscs:
   <h3>{{_('Teaching Experience')}}</h3>
   {% for teaching in doc.teachings %}
     <div class="teaching">
-      <a href="{{_(teaching.url)}}"><img src="/static/images/{{_(teaching.id)}}.png"></a>
+      <a href="{{_(teaching.url)}}"><img src="/static/images/{{_(teaching.id)}}.png" alt="" title="{{_(teaching.name)}}"></a>
       <h4><a href="{{_(teaching.url)}}" target="_blank">{{_(teaching.name)}}</a></h4>
       <p>{{_(teaching.desc)}}</p>
     </div>
