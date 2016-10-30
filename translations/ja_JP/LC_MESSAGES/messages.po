@@ -335,7 +335,7 @@ msgid ""
 "development."
 msgstr ""
 "データマイニングおよび機械学習をウェブサイト・ウェブサービス開発に応用することに興味があります。Google "
-"ではウェブエンジニアとしてウェブサイト製作に取り組み、東京大学では博士学生として機械学習の研究に取り組んでいます。"
+"ではウェブエンジニアとしてウェブサイト制作に取り組み、東京大学では博士学生として機械学習の研究に取り組んでいます。"
 
 #: /content/pages/home.html
 msgid "Software Engineer"
@@ -359,7 +359,7 @@ msgstr "ウェブマスター インターンシップ"
 
 #: /content/pages/home.html:2
 msgid "Website Works"
-msgstr "ウェブサイト製作"
+msgstr "ウェブサイト制作"
 
 #: /content/pages/home.html:37
 msgid "Work Experience"
