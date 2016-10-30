@@ -75,7 +75,7 @@ msgstr ""
 msgid ""
 "Budou automatically translates Japanese sentences into organized HTML code "
 "with meaningful line breaks using machine learning technology."
-msgstr "Budou は日本語の文章を自然言語解析技術を用いて解析し、自然な改行を提供する HTML コードを出力します。"
+msgstr "Budou は日本語の文章を自然言語処理技術を用いて解析し、自然な改行を提供する HTML コードを出力します。"
 
 #: /content/pages/home.html:81
 msgid "Contacts"
