@@ -130,7 +130,8 @@ msgid ""
 "Chizuru Suga, Keita Nishiyama, Yutaka Matsuo. \"Consumer Trend Prediction "
 "System Using Web Mining.\" In Proceedings of the 27th Annual Conference of "
 "the Japanese Society for Artificial Intelligence. 2013."
-msgstr "保住 純, 飯塚 修平, 中山 浩太郎, 高須 正和, 嶋田 絵理子, 須賀 千鶴, 西山 圭太, 松尾 豊. "
+msgstr ""
+"保住 純, 飯塚 修平, 中山 浩太郎, 高須 正和, 嶋田 絵理子, 須賀 千鶴, 西山 圭太, 松尾 豊. "
 "Webマイニングを用いたコンテンツ消費トレンド予測システム, 人工知能学会全国大会. 2013."
 
 #: /content/pages/home.html
@@ -285,6 +286,12 @@ msgid ""
 msgstr ""
 "飯塚 修平, 濱野 将司, 川上 和也, 松尾 豊, 萩原 静厳, 川上 登福, 浜田 貴之. ゼクシィ.net におけるユーザーの行動パターンの分析. "
 "人工知能学会全国大会. 2013."
+
+#: /content/pages/home.html
+msgid ""
+"Shuhei Iitsuka, Shohei Ohsawa, Yutaka Matsuo. \"Building Social Network Using"
+" Web.\" Japanese Association for Social Research. 2013."
+msgstr "飯塚修平, 大澤昇平, 松尾豊. ウェブを用いた社会ネットワークの構築. 社会と調査. 2013."
 
 #: /content/pages/home.html
 msgid ""
