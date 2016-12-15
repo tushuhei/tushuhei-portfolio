@@ -46,11 +46,16 @@ msgstr "アジアトレンドマップ"
 
 #: /content/pages/home.html
 msgid ""
-"Asia Trend Map forecasts the popularity of Japanese pop-culture contents' "
-"such as Manga, Anime, and Games in Asia region. I supported website "
-"development by bridging between the web interface and machine learning "
-"algorithms in the back-end."
+"Asia Trend Map forecasts the popularity of Japanese pop-culture contents "
+"(e.g. Manga, Anime, and Games) in Asia region. I directed the development "
+"colalborating with a Japanese engineering agency."
 msgstr "アジアトレンドマップはデータマイニング技術を用いて、今後のアジア地域における日本のポップカルチャーコンテンツ（漫画、アニメ、ゲームなど）の人気推移を予測します。ウェブサイトと機械学習アルゴリズムの連携部分をサポートしました。"
+
+#: /content/pages/home.html
+msgid ""
+"Assisted and gave some lectures as a TA in front of graduated students in the"
+" University of Tokyo to grow thier web development skills."
+msgstr "講師およびメンターとして、ウェブサービスを構築する大学院生のサポートを行っています。"
 
 #: /content/pages/home.html
 msgid ""
@@ -62,6 +67,16 @@ msgstr "東京大学工学部システム創成学科知能社会システムコ
 msgid "Brand Studio APAC Web Developer / UX Engineer"
 msgstr "ブランドスタジオ APAC ウェブデベロッパー / UX エンジニア"
 
+#: /content/pages/home.html
+msgid "Budou"
+msgstr ""
+
+#: /content/pages/home.html
+msgid ""
+"Budou automatically translates Japanese sentences into organized HTML code "
+"with meaningful line breaks using machine learning technology."
+msgstr "Budou は日本語の文章を自然言語処理技術を用いて解析し、自然な改行を提供する HTML コードを出力します。"
+
 #: /content/pages/home.html:81
 msgid "Contacts"
 msgstr "連絡先"
@@ -71,8 +86,8 @@ msgid "Developer / Designer / Director"
 msgstr "開発 / デザイン / 企画"
 
 #: /content/pages/home.html
-msgid "Development Support / Planner"
-msgstr "開発サポート / 企画"
+msgid "Direction"
+msgstr ""
 
 #: /content/pages/home.html
 msgid "Domestic Conferences"
@@ -92,13 +107,9 @@ msgstr "執行役員"
 
 #: /content/pages/home.html
 msgid ""
-"Global Consumer Intelligence is an endowed chair to develop data scientists "
-"with advanced data analysis and business development skills from the "
-"University of Tokyo. I created a website for this program from scratch with "
-"my design / engineering expertise."
-msgstr ""
-"東京大学グローバル消費インテリジェンス寄付講座は、データ分析スキルに長けた CMO (Chief Marketing Officer) "
-"となる人材を輩出します。本講座のウェブサイトの企画・デザイン・開発すべてに携わりました。"
+"Founder of this study group which aims to produce entrepreneurs with "
+"practical web development skills from the Univresity of Tokyo."
+msgstr "UT Startup Gym の代表として、ウェブサービスを企画して立ち上げる力を養成する勉強会を学生・社会人向けに運営していました。"
 
 #: /content/pages/home.html
 msgid "Global Consumer Intelligence, The University Of Tokyo"
@@ -109,8 +120,24 @@ msgid "Google"
 msgstr ""
 
 #: /views/base.html:34
-msgid "I write codes, build websites, and make some latte art."
-msgstr "コードと論文とラテアートを描いてます。"
+msgid ""
+"I build <span class=\"headline-code-color\">websites</span>, write <span "
+"class=\"headline-website-color\">papers</span>, and make some <span class"
+"=\"headline-latte-color\">latte art</span>."
+msgstr ""
+"<span class=\"ww\"><span class=\"headline-code-color\">コード</span>と</span>"
+"<span class=\"ww\"><span class=\"headline-website-color\">論文</span>と</span>"
+"<span class=\"ww\"><span class=\"headline-latte-color\">ラテアート</span>を</span>"
+"<span class=\"ww\">描いてます。</span>"
+
+#: /content/pages/home.html
+msgid ""
+"I built a website for Global Consumer Intelligence, a donated fund laboratory"
+" in the Univesity of Tokyo, from scratch playing my web design / engineering "
+"expertise."
+msgstr ""
+"東京大学グローバル消費インテリジェンス寄付講座は、データ分析スキルに長けたCMO (Chief Marketing Officer) "
+"となる人材を輩出します。本講座のウェブサイトの企画・デザイン・開発すべてに携わりました。"
 
 #: /content/pages/home.html
 msgid "Imagerous"
@@ -146,7 +173,7 @@ msgstr ""
 
 #: /content/pages/home.html:83
 msgid "Mail"
-msgstr ""
+msgstr "メール"
 
 #: /content/pages/home.html
 msgid ""
@@ -155,8 +182,8 @@ msgid ""
 msgstr "東京大学工学系研究科技術経営戦略学専攻 修士課程"
 
 #: /content/pages/home.html
-msgid "Mekei High School &amp; Junior High School"
-msgstr "私立茗渓学園中学校・高校"
+msgid "Meikei Junior High &amp; High School"
+msgstr "私立茗溪学園中学校・高等学校"
 
 #: /content/pages/home.html:74
 msgid "Misc Links"
@@ -176,12 +203,6 @@ msgid "Ohma Inc."
 msgstr "オーマ株式会社"
 
 #: /content/pages/home.html
-msgid ""
-"Organizer of this regular study session to develop entrepreneurs with web "
-"service development skills."
-msgstr "UT Startup Gym の代表として、ウェブサービスを企画して立ち上げる力を養成する勉強会を学生・社会人向けに運営していました。"
-
-#: /content/pages/home.html
 msgid "Other papers"
 msgstr "その他"
 
@@ -195,9 +216,17 @@ msgstr "東京大学工学系研究科技術経営戦略学専攻 博士課程"
 msgid "Programming Skills"
 msgstr "プログラミングスキル"
 
+#: /content/pages/home.html
+msgid "Project Lead"
+msgstr ""
+
 #: /content/pages/home.html:22
 msgid "Publications"
 msgstr "出版"
+
+#: /content/pages/home.html:14
+msgid "Role"
+msgstr "役割"
 
 #: /content/pages/home.html
 msgid "SPYSEE"
@@ -205,11 +234,10 @@ msgstr "あのひと検索スパイシー"
 
 #: /content/pages/home.html
 msgid ""
-"SPYSEE is a search engine service specialized for human profiles. As a "
-"\"growth hacker\", I worked on this website with the responsibility to "
-"improve the profitability. We succeeded to bring this website to the next "
-"level in terms of usability and business performance by exploiting A/B "
-"testing methodology heavily."
+"SPYSEE is a search engine service specialized for human profiles.  I worked "
+"on this website as a \"growth hacker\" and brought the website to the next "
+"level in a point of usability and business performance by exploiting A/B "
+"testing methodology a lot."
 msgstr ""
 "あのひと検索スパイシーは人物のプロフィールとつながりに特化した検索サービスです。サービス責任者として、A/B "
 "テストを用いたウェブサイトのデザイン改善および収益性改善に取り組みました。"
@@ -313,7 +341,7 @@ msgid ""
 "development."
 msgstr ""
 "データマイニングおよび機械学習をウェブサイト・ウェブサービス開発に応用することに興味があります。Google "
-"ではウェブエンジニアとしてウェブサイト製作に取り組み、東京大学では博士学生として機械学習の研究に取り組んでいます。"
+"ではウェブエンジニアとしてウェブサイト制作に取り組み、東京大学では博士学生として機械学習の研究に取り組んでいます。"
 
 #: /content/pages/home.html
 msgid "Software Engineer"
@@ -322,12 +350,6 @@ msgstr "ソフトウェアエンジニア"
 #: /content/pages/home.html:51
 msgid "Teaching Experience"
 msgstr "教歴"
-
-#: /content/pages/home.html
-msgid ""
-"Teaching assistant at a course for graduated students to foster web "
-"development skills."
-msgstr "講師およびメンターとして、ウェブサービスを構築する大学院生のサポートを行っています。"
 
 #: /content/pages/home.html
 msgid "UT Startup Gym"
@@ -343,13 +365,9 @@ msgstr "ウェブマスター インターンシップ"
 
 #: /content/pages/home.html:2
 msgid "Website Works"
-msgstr "ウェブサイト製作"
+msgstr "ウェブサイト制作"
 
 #: /content/pages/home.html:37
 msgid "Work Experience"
 msgstr "職歴"
-
-#: /content/pages/home.html:14
-msgid "Worked as"
-msgstr "担当"
 

@@ -7,9 +7,10 @@ body {
   background: $color-bg;
   color: $color-fg;
   font-family: $font-family;
-  padding: 0;
-  max-width: 720px;
+  font-weight: 300;
   margin: 0 auto;
+  max-width: 720px;
+  padding: 0;
 
   small {
     color: lighten($color-fg, 20%);
@@ -25,8 +26,8 @@ header h2:lang(ja) {
   font-weight: normal;
 }
 
-p {
-  font-weight: lighter;
+h3 {
+  margin-top: 2em;
 }
 
 section {
@@ -40,4 +41,8 @@ section {
 footer {
   padding-bottom: 50px;
   text-align: right;
+}
+
+li {
+  margin-bottom: 0.5em;
 }

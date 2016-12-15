@@ -31,7 +31,9 @@
     <header>
       <hgroup>
         <h1>{{_('Shuhei Iitsuka')}}</h1>
-        <h2>{{_('I write codes, build websites, and make some latte art.')|budou}}</h2>
+        <h2 aria-label="{{_("I build websites, write papers, and make some latte art.")}}" id="headline">
+          {{_('I build <span class="headline-code-color">websites</span>, write <span class="headline-website-color">papers</span>, and make some <span class="headline-latte-color">latte art</span>.')}}
+        </h2>
       </hgroup>
       <p>
       {{_('Shuhei creates innovative websites through logical and analytical manner.

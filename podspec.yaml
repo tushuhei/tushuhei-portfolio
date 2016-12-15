@@ -13,6 +13,14 @@ static_dirs:
   serve_at: /static/rsc/
 - static_dir: /dist/
   serve_at: /static/
+- static_dir: /static/css/
+  serve_at: /static/css/
+
+preprocessors:
+  - kind: sass
+    sass_dir: /source/sass/
+    out_dir: /static/css/
+
 
 extensions:
   jinja2:

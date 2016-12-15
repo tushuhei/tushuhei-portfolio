@@ -6,25 +6,36 @@ $localization:
   path: /{locale}/
 
 works:
+- id: budou
+  img: budou.gif
+  title@: Budou
+  url: https://github.com/google/budou
+  desc@: Budou automatically translates Japanese sentences into organized HTML code with meaningful line breaks using machine learning technology.
+  role@: Project Lead
+
 - id: gci
+  img: gci.png
   title@: Global Consumer Intelligence, The University Of Tokyo
   url: http://gci.t.u-tokyo.ac.jp
-  desc@: Global Consumer Intelligence is an endowed chair to develop data scientists with advanced data analysis and business development skills from the University of Tokyo. I created a website for this program from scratch with my design / engineering expertise.
+  desc@: I built a website for Global Consumer Intelligence, a donated fund laboratory in the Univesity of Tokyo, from scratch playing my web design / engineering expertise.
   role@: Developer / Designer / Director
 
 - id: spysee
+  img: spysee.png
   title@: SPYSEE
   url: http://spysee.jp
-  desc@: SPYSEE is a search engine service specialized for human profiles. As a "growth hacker", I worked on this website with the responsibility to improve the profitability. We succeeded to bring this website to the next level in terms of usability and business performance by exploiting A/B testing methodology heavily.
+  desc@: SPYSEE is a search engine service specialized for human profiles.  I worked on this website as a "growth hacker" and brought the website to the next level in a point of usability and business performance by exploiting A/B testing methodology a lot.
   role@: Developer / Designer / Director
 
 - id: atm
+  img: atm.png
   title@: Asia Trend Map
   url: http://asiatrendmap.jp
-  desc@: Asia Trend Map forecasts the popularity of Japanese pop-culture contents' such as Manga, Anime, and Games in Asia region. I supported website development by bridging between the web interface and machine learning algorithms in the back-end.
-  role@: Development Support / Planner
+  desc@: Asia Trend Map forecasts the popularity of Japanese pop-culture contents (e.g. Manga, Anime, and Games) in Asia region. I directed the development colalborating with a Japanese engineering agency.
+  role@: Direction
 
 - id: imagerous
+  img: imagerous.png
   title@: Imagerous
   url: http://imagero.us
   desc@: An experimental website which showcases images with a theme. See and enjoy. That's it.
@@ -93,19 +104,20 @@ schools:
   term@: 2012-2014
 - title@: Bachelor degree of engineering at the Program for Social Innovation, The University of Tokyo
   term@: 2008-2012
-- title@: Mekei High School &amp; Junior High School
+- title@: Meikei Junior High &amp; High School
   term@: 2002-2008
 
 skills:
 - name: Python
   libraries:
-  - numpy / scipy
-  - scikit-learn / pandas
-  - iPython / Jupyter
-  - Google App Engine
+  - Deep learning - TenxorFlow / Keras
+  - Machine learning - scikit-learn / pandas
+  - Scientific computation - numpy / scipy
+  - Research tool - iPython / Jupyter
+  - Web application hosting tool - Google App Engine
 - name: Javascript
   libraries:
-  - Angular.JS
+  - AngularJS
   - Google Closure
   - d3.js
   - Three.js (+ WebVR)
@@ -119,11 +131,11 @@ skills:
 teachings:
 - name@: UT Startup Gym
   url: http://ut-gym.jp
-  desc@: Organizer of this regular study session to develop entrepreneurs with web service development skills.
+  desc@: Founder of this study group which aims to produce entrepreneurs with practical web development skills from the Univresity of Tokyo.
   id: utgym
 - name@: Web Engineering and Business Model, the University of Tokyo
   url: http://tmi.t.u-tokyo.ac.jp/
-  desc@: Teaching assistant at a course for graduated students to foster web development skills.
+  desc@: Assisted and gave some lectures as a TA in front of graduated students in the University of Tokyo to grow thier web development skills.
   id: ut
 
 miscs:
@@ -138,7 +150,7 @@ miscs:
 
 ---
 
-<section id="work-section">
+<section id="websites">
   <h2>{{_('Website Works')}}</h2>
   {% for work in doc.works %}
     <div class="work">
@@ -146,33 +158,33 @@ miscs:
         <h3><a href="{{_(work.url)}}" target="_blank">{{_(work.title)}}</a></h3>
       </div>
       <div class="media">
-        <a href="{{_(work.url)}}" target="_blank">
-          <img src="/static/images/{{_(work.id)}}.png">
+        <a href="{{_(work.url)}}" target="_blank" title="{{_(work.title)}}">
+          <img src="/static/images/{{_(work.img)}}" alt="">
         </a>
       </div>
       <div class="detail">
-        <h4>{{_('Worked as')}}: {{_(work.role)}}</h4>
+        <h4>{{_('Role')}}: {{_(work.role)}}</h4>
         <p>{{_(work.desc)}}</p>
       </div>
     </div>
   {% endfor %}
 </section>
 
-<section id="paper-section">
+<section id="papers">
   <h2>{{_('Publications')}}</h2>
   {% for paper in doc.papers %}
     <h3>{{_(paper.type)}}</h3>
     <ul>
     {% for t in paper.titles %}
-      <li>{{_(t.title)}} {% if t.pdf %}[<a href="{{t.pdf}}">PDF</a>]{% endif %}</li>
+      <li>{{_(t.title)}} {% if t.pdf %}[<a href="{{t.pdf}}" title="{{_(t.title)}} PDF">PDF</a>]{% endif %}</li>
     {% endfor %}
     </ul>
   {% endfor %}
 </section>
 
-<section id="about-section">
+<section id="about">
   <h2>{{_('About - Shuhei Iitsuka <span class="ww">飯塚 修平</span>')}}</h2>
-  <img src="/static/images/shuhei.png" class="profile-image">
+  <img src="/static/images/shuhei.png" class="profile-image" alt="{{_("Shuhei Iitsuka")}}">
 
   <h3>{{_('Work Experience')}}</h3>
   <ul class="jobs">
@@ -191,7 +203,7 @@ miscs:
   <h3>{{_('Teaching Experience')}}</h3>
   {% for teaching in doc.teachings %}
     <div class="teaching">
-      <a href="{{_(teaching.url)}}"><img src="/static/images/{{_(teaching.id)}}.png"></a>
+      <a href="{{_(teaching.url)}}"><img src="/static/images/{{_(teaching.id)}}.png" alt="" title="{{_(teaching.name)}}"></a>
       <h4><a href="{{_(teaching.url)}}" target="_blank">{{_(teaching.name)}}</a></h4>
       <p>{{_(teaching.desc)}}</p>
     </div>
