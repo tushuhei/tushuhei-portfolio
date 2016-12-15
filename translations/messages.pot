@@ -306,6 +306,12 @@ msgstr ""
 
 #: /content/pages/home.html
 msgid ""
+"Shuhei Iitsuka, Shohei Ohsawa, Yutaka Matsuo. \"Building Social Network Using"
+" Web.\" Japanese Association for Social Research. 2013."
+msgstr ""
+
+#: /content/pages/home.html
+msgid ""
 "Shuhei Iitsuka. \"Proposal of Generalized Webpage Optimization Method.\" "
 "(Master thesis)"
 msgstr ""

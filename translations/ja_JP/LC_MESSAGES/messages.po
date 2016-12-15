@@ -327,6 +327,12 @@ msgstr ""
 
 #: /content/pages/home.html
 msgid ""
+"Shuhei Iitsuka, Shohei Ohsawa, Yutaka Matsuo. \"Building Social Network Using"
+" Web.\" Japanese Association for Social Research. 2013."
+msgstr "飯塚修平, 大澤昇平, 松尾豊. ウェブを用いた社会ネットワークの構築. 社会と調査. 2013."
+
+#: /content/pages/home.html
+msgid ""
 "Shuhei Iitsuka. \"Proposal of Generalized Webpage Optimization Method.\" "
 "(Master thesis)"
 msgstr "汎用的なウェブページ最適化手法の提案 （修士論文）"
