@@ -74,7 +74,9 @@ msgstr ""
 #: /content/pages/home.html
 msgid ""
 "Budou automatically translates Japanese sentences into organized HTML code "
-"with meaningful line breaks using machine learning technology."
+"with meaningful line breaks using machine learning technology. Animation "
+"credit - <a href=\"https://github.com/remka/responsive-devices\">Responsive "
+"Device Animation</a>"
 msgstr ""
 
 #: /content/pages/home.html:81
@@ -119,11 +121,15 @@ msgstr ""
 msgid "Google"
 msgstr ""
 
-#: /views/base.html:34
+#: /views/base.html:35
 msgid ""
 "I build <span class=\"headline-code-color\">websites</span>, write <span "
 "class=\"headline-website-color\">papers</span>, and make some <span class"
 "=\"headline-latte-color\">latte art</span>."
+msgstr ""
+
+#: /views/base.html:34
+msgid "I build websites, write papers, and make some latte art."
 msgstr ""
 
 #: /content/pages/home.html
@@ -238,7 +244,7 @@ msgid ""
 "Intelligence. 2016."
 msgstr ""
 
-#: /views/base.html:33
+#: /content/pages/home.html:35 /views/base.html:33
 msgid "Shuhei Iitsuka"
 msgstr ""
 
@@ -310,7 +316,7 @@ msgid ""
 "(Bachelor thesis)"
 msgstr ""
 
-#: /views/base.html:37
+#: /views/base.html:39
 msgid ""
 "Shuhei creates innovative websites through logical and analytical manner.\n"
 "      He is also a passionate lifetime learner to seek opportunities to bring"

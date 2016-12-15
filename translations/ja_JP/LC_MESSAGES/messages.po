@@ -74,8 +74,14 @@ msgstr ""
 #: /content/pages/home.html
 msgid ""
 "Budou automatically translates Japanese sentences into organized HTML code "
-"with meaningful line breaks using machine learning technology."
-msgstr "Budou は日本語の文章を自然言語処理技術を用いて解析し、自然な改行を提供する HTML コードを出力します。"
+"with meaningful line breaks using machine learning technology. Animation "
+"credit - <a href=\"https://github.com/remka/responsive-devices\">Responsive "
+"Device Animation</a>"
+msgstr ""
+"Budou は日本語の文章を自然言語処理技術を用いて解析し、自然な改行を提供する "
+"HTML コードを出力します。Animation credit - "
+"<a href=\"https://github.com/remka/responsive-devices\">Responsive Device "
+"Animation</a>"
 
 #: /content/pages/home.html:81
 msgid "Contacts"
@@ -119,16 +125,20 @@ msgstr "東京大学 グローバル消費インテリジェンス寄付講座"
 msgid "Google"
 msgstr ""
 
-#: /views/base.html:34
+#: /views/base.html:35
 msgid ""
 "I build <span class=\"headline-code-color\">websites</span>, write <span "
 "class=\"headline-website-color\">papers</span>, and make some <span class"
 "=\"headline-latte-color\">latte art</span>."
 msgstr ""
-"<span class=\"ww\"><span class=\"headline-code-color\">コード</span>と</span>"
-"<span class=\"ww\"><span class=\"headline-website-color\">論文</span>と</span>"
-"<span class=\"ww\"><span class=\"headline-latte-color\">ラテアート</span>を</span>"
-"<span class=\"ww\">描いてます。</span>"
+"<span class=\"ww\"><span class=\"headline-code-"
+"color\">コード</span>と</span><span class=\"ww\"><span class=\"headline-website-"
+"color\">論文</span>と</span><span class=\"ww\"><span class=\"headline-latte-"
+"color\">ラテアート</span>を</span><span class=\"ww\">描いてます。</span>"
+
+#: /views/base.html:34
+msgid "I build websites, write papers, and make some latte art."
+msgstr ""
 
 #: /content/pages/home.html
 msgid ""
@@ -250,7 +260,7 @@ msgid ""
 "Intelligence. 2016."
 msgstr "龍野 翔, 飯塚 修平, 松尾 豊. ウェブサイトのユーザ遷移に基づいたコンバージョン促進要因の抽出. 人工知能学会全国大会. 2016."
 
-#: /views/base.html:33
+#: /content/pages/home.html:35 /views/base.html:33
 msgid "Shuhei Iitsuka"
 msgstr "飯塚 修平"
 
@@ -327,7 +337,7 @@ msgid ""
 "(Bachelor thesis)"
 msgstr "ソーシャルウェブサービス設計手法の確立に向けたソーシャルギフトサービス構築の試み （卒業論文）"
 
-#: /views/base.html:37
+#: /views/base.html:39
 msgid ""
 "Shuhei creates innovative websites through logical and analytical manner.\n"
 "      He is also a passionate lifetime learner to seek opportunities to bring"
