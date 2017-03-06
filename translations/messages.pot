@@ -30,6 +30,12 @@ msgstr ""
 msgid "2014.4-present"
 msgstr ""
 
+#: /content/pages/home.html
+msgid ""
+"<a href=\"http://www.ai-gakkai.or.jp/about/award/jsai_award-"
+"conf-s/#CONFERENCE_S\" target=\"_blank\">Student Award</a>"
+msgstr ""
+
 #: /content/pages/home.html:34
 msgid "About - Shuhei Iitsuka <span class=\"ww\">飯塚 修平</span>"
 msgstr ""

@@ -30,6 +30,14 @@ msgstr "2014-現在"
 msgid "2014.4-present"
 msgstr "2014.4-現在"
 
+#: /content/pages/home.html
+msgid ""
+"<a href=\"http://www.ai-gakkai.or.jp/about/award/jsai_award-"
+"conf-s/#CONFERENCE_S\" target=\"_blank\">Student Award</a>"
+msgstr ""
+"<a href=\"http://www.ai-gakkai.or.jp/about/award/jsai_award-"
+"conf-s/#CONFERENCE_S\" target=\"_blank\">学生奨励賞</a>"
+
 #: /content/pages/home.html:34
 msgid "About - Shuhei Iitsuka <span class=\"ww\">飯塚 修平</span>"
 msgstr "飯塚 修平 (Shuhei Iitsuka)"
@@ -78,9 +86,8 @@ msgid ""
 "credit - <a href=\"https://github.com/remka/responsive-devices\">Responsive "
 "Device Animation</a>"
 msgstr ""
-"Budou は日本語の文章を自然言語処理技術を用いて解析し、自然な改行を提供する "
-"HTML コードを出力します。Animation credit - "
-"<a href=\"https://github.com/remka/responsive-devices\">Responsive Device "
+"Budou は日本語の文章を自然言語処理技術を用いて解析し、自然な改行を提供する HTML コードを出力します。Animation credit - <a"
+" href=\"https://github.com/remka/responsive-devices\">Responsive Device "
 "Animation</a>"
 
 #: /content/pages/home.html:81

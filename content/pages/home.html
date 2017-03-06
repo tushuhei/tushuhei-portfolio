@@ -58,6 +58,7 @@ papers:
 - type@: Domestic Conferences
   titles:
     - title@: Shuhei Iitsuka and Yutaka Matsuo. "Variation Generation System for Automated Website Optimization." In Proceedings of the 30th Annual Conference of the Japanese Society for Artificial Intelligence. 2016.
+      news@: <a href="http://www.ai-gakkai.or.jp/about/award/jsai_award-conf-s/#CONFERENCE_S" target="_blank">Student Award</a>
       pdf: https://kaigi.org/jsai/webprogram/2016/pdf/31.pdf
     - title@: Sho Tatsuno, Shuhei Iitsuka and Yutaka Matsuo. "Extraction of Conversion Promotional Factor Based on User Transition on Webpage." In Proceedings of the 30th Annual Conference of the Japanese Society for Artificial Intelligence. 2016.
       pdf: https://kaigi.org/jsai/webprogram/2016/pdf/482.pdf
@@ -177,7 +178,7 @@ miscs:
     <h3>{{_(paper.type)}}</h3>
     <ul>
     {% for t in paper.titles %}
-      <li>{{_(t.title)}} {% if t.pdf %}[<a href="{{t.pdf}}" title="{{_(t.title)}} PDF">PDF</a>]{% endif %}</li>
+      <li>{{_(t.title)}}{% if t.pdf %} [<a href="{{t.pdf}}" title="{{_(t.title)}} PDF">PDF</a>]{% endif %}{% if t.news %} ({{_(t.news)}}){% endif %}</li>
     {% endfor %}
     </ul>
   {% endfor %}
