@@ -145,7 +145,7 @@ msgstr ""
 
 #: /views/base.html:34
 msgid "I build websites, write papers, and make some latte art."
-msgstr ""
+msgstr "コードと論文とラテアートを描いてます。"
 
 #: /content/pages/home.html
 msgid ""
@@ -301,6 +301,13 @@ msgstr "飯塚 修平, 松尾 豊. ウェブページ最適化問題の定式化
 
 #: /content/pages/home.html
 msgid ""
+"Shuhei Iitsuka and Yutaka Matsuo. \"Website Optimization Focusing on the "
+"Long-term Effect.\" In Proceedings of the 31st Annual Conference of the "
+"Japanese Society for Artificial Intelligence. 2017."
+msgstr "飯塚 修平, 松尾 豊. バリエーションの提示がもたらす長期的効果に着目したウェブサイト最適化手法. 人工知能学会全国大会. 2017."
+
+#: /content/pages/home.html
+msgid ""
 "Shuhei Iitsuka and Yutaka Matsuo. \"Website Optimization Problem and Its "
 "Solutions.\" In Proceedings of the 21th ACM SIGKDD International Conference "
 "on Knowledge Discovery and Data Mining, pp.447-456. ACM, 2015."
@@ -321,6 +328,14 @@ msgstr ""
 "飯塚修平, 濱野将司, 川上和也, 萩原静厳, 川上登福, 浜田貴之, 松尾豊. "
 "閲覧・購買行動に着目した結婚情報サイトにおける商品間の勝敗関係の分析手法. 電子情報通信学会論文誌 D Vol.J99-D No.1 "
 "pp.109-118. 2016."
+
+#: /content/pages/home.html
+msgid ""
+"Shuhei Iitsuka, Masashi Hamano, Kazuya Kawakami, Seigen Hagiwara, Takayoshi "
+"Kawakami, Takayuki Hamada, and Yutaka Matsuo. \"Inferring Win–Lose Product "
+"Network from User Behavior.\" In Proceedings of 2017 IEEE/WIC/ACM "
+"International Conference on Web Intelligence. 2017."
+msgstr ""
 
 #: /content/pages/home.html
 msgid ""

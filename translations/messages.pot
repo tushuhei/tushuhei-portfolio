@@ -284,6 +284,13 @@ msgstr ""
 
 #: /content/pages/home.html
 msgid ""
+"Shuhei Iitsuka and Yutaka Matsuo. \"Website Optimization Focusing on the "
+"Long-term Effect.\" In Proceedings of the 31st Annual Conference of the "
+"Japanese Society for Artificial Intelligence. 2017."
+msgstr ""
+
+#: /content/pages/home.html
+msgid ""
 "Shuhei Iitsuka and Yutaka Matsuo. \"Website Optimization Problem and Its "
 "Solutions.\" In Proceedings of the 21th ACM SIGKDD International Conference "
 "on Knowledge Discovery and Data Mining, pp.447-456. ACM, 2015."
@@ -300,6 +307,14 @@ msgid ""
 "Browsing and Purchase Behavior in E-Commerce.\" Transactions of the Institute"
 " of Electronics, Information and Communication Engineers. Vol.J99-D No.1 "
 "pp.109-118. 2016."
+msgstr ""
+
+#: /content/pages/home.html
+msgid ""
+"Shuhei Iitsuka, Masashi Hamano, Kazuya Kawakami, Seigen Hagiwara, Takayoshi "
+"Kawakami, Takayuki Hamada, and Yutaka Matsuo. \"Inferring Win–Lose Product "
+"Network from User Behavior.\" In Proceedings of 2017 IEEE/WIC/ACM "
+"International Conference on Web Intelligence. 2017."
 msgstr ""
 
 #: /content/pages/home.html

@@ -24,4 +24,4 @@ preprocessors:
 
 extensions:
   jinja2:
-  - extensions.wordwrap.Wordwrap
+  - extensions.budou_ext.BudouExtension

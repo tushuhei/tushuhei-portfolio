@@ -8,3 +8,7 @@ bower_components
 budou-cache.db
 budou-cloud.json
 *.swp
+extensions
+.podcache.yaml
+budou-cache.shelve.db
+package-lock.json
