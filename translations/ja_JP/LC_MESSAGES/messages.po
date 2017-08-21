@@ -365,6 +365,12 @@ msgid ""
 "(Bachelor thesis)"
 msgstr "ソーシャルウェブサービス設計手法の確立に向けたソーシャルギフトサービス構築の試み （卒業論文）"
 
+#: /content/pages/home.html
+msgid ""
+"Shuhei Iitsuka. \"Website Optimization Problem and Its Solutions.\" (PhD "
+"thesis)"
+msgstr ""
+
 #: /views/base.html:39
 msgid ""
 "Shuhei creates innovative websites through logical and analytical manner.\n"
