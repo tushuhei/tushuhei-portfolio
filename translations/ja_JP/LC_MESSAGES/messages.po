@@ -369,7 +369,7 @@ msgstr "ソーシャルウェブサービス設計手法の確立に向けたソ
 msgid ""
 "Shuhei Iitsuka. \"Website Optimization Problem and Its Solutions.\" (PhD "
 "thesis)"
-msgstr ""
+msgstr "ウェブサイト最適化問題の定式化と解法に関する研究（博士論文）"
 
 #: /views/base.html:39
 msgid ""
