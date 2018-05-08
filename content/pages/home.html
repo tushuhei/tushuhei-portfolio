@@ -6,6 +6,20 @@ $localization:
   path: /{locale}/
 
 works:
+- id: esh
+  video: https://www.youtube.com/embed/jr3q_9pJBr8?rel=0
+  title@: Emoji Scavenger Hunt
+  url: https://emojiscavengerhunt.withgoogle.com/
+  desc@: Emoji Scavenger Hunt is a browser-based game built with machine learning technology that uses your phone’s camera and a neural network to try and guess what it’s seeing. This is an example of creative application of "front-end" machine learning running on <a href="https://js.tensorflow.org/" target="_blank">TensorFlow.js</a>.
+  role@: Machine Learning Engineer
+
+- id: tegaki
+  video: https://www.youtube.com/embed/guJnFY1R4I0?rel=0
+  title@: Gboard Physical Handwriting Version
+  url: https://landing.google.co.jp/tegaki/
+  desc@: Gboard Physical Handwriting Version is yet another input device which reads your scribble on your keyboard using machine learning technology. You don't need to remember QWERTY anymore. Just write it.
+  role@: Machine Learning & UX Engineer
+
 - id: budou
   img: budou.gif
   title@: Budou
@@ -52,6 +66,7 @@ papers:
     - title@: Naoki Tani, Danushka Bollegala, Naiwala Chandrasiri, Keisuke Okamoto, Kazunari Nawa, Shuhei Iitsuka, and Yutaka Matsuo. "Collaborative exploratory search in real-world context." In Proceedings of the 20th ACM international conference on Information and knowledge management, pp. 2137-2140. ACM, 2011.
 - type@: Journals
   titles:
+    - title@: Koichiro Tamura, Katsuya Uenoyama, Shuhei Iitsuka, Yutaka Matsuo. "Model for Evaluation of Stock Values by Ensemble Model Using Deep Learning." Transactions of the Japanese Society for Artificial Intelligence. Vol.33 No.1 pp.A-H51_1-11. 2018.
     - title@: Shuhei Iitsuka, Masashi Hamano, Kazuya Kawakami, Seigen Hagiwara, Takayoshi Kawakami, Takayuki Hamada, and Yutaka Matsuo. "A Product Network Based on Browsing and Purchase Behavior in E-Commerce." Transactions of the Institute of Electronics, Information and Communication Engineers. Vol.J99-D No.1 pp.109-118. 2016.
       pdf: /static/rsc/win-lose.pdf
     - title@: Shuhei Iitsuka and Yutaka Matsuo. "Webpage Optimization Problem and Its Optimization Method." Transactions of the Japanese Society for Artificial Intelligence. Vol.29 No.5 pp.460-468. 2014.
@@ -157,16 +172,20 @@ miscs:
 ---
 
 <section id="websites">
-  <h2>{{_('Website Works')}}</h2>
+  <h2>{{_('Works')}}</h2>
   {% for work in doc.works %}
     <div class="work">
       <div class="abstract">
-        <h3><a href="{{_(work.url)}}" target="_blank">{{_(work.title)}}</a></h3>
+        <h3><a href="{{work.url}}" target="_blank">{{_(work.title)}}</a></h3>
       </div>
       <div class="media">
-        <a href="{{_(work.url)}}" target="_blank" title="{{_(work.title)}}">
-          <img src="/static/images/{{_(work.img)}}" alt="">
-        </a>
+        {% if work.video %}
+        <iframe width="100%" height="315" src="{{work.video}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        {% else %}
+          <a href="{{work.url}}" target="_blank" title="{{_(work.title)}}">
+            <img src="/static/images/{{work.img}}" alt="">
+          </a>
+        {% endif %}
       </div>
       <div class="detail">
         <h4>{{_('Role')}}: {{_(work.role)}}</h4>
@@ -195,7 +214,7 @@ miscs:
   <h3>{{_('Work Experience')}}</h3>
   <ul class="jobs">
   {% for job in doc.jobs %}
-    <li><a href="{{_(job.url)}}" target="_blank">{{_(job.name)}}</a> {{_(job.role)}} <small>{{_(job.term)}}</small></a></li>
+    <li><a href="{{job.url}}" target="_blank">{{_(job.name)}}</a> {{_(job.role)}} <small>{{_(job.term)}}</small></a></li>
   {% endfor %}
   </ul>
 
@@ -209,8 +228,8 @@ miscs:
   <h3>{{_('Teaching Experience')}}</h3>
   {% for teaching in doc.teachings %}
     <div class="teaching">
-      <a href="{{_(teaching.url)}}"><img src="/static/images/{{_(teaching.id)}}.png" alt="" title="{{_(teaching.name)}}"></a>
-      <h4><a href="{{_(teaching.url)}}" target="_blank">{{_(teaching.name)}}</a></h4>
+      <a href="{{teaching.url}}"><img src="/static/images/{{_(teaching.id)}}.png" alt="" title="{{_(teaching.name)}}"></a>
+      <h4><a href="{{teaching.url}}" target="_blank">{{_(teaching.name)}}</a></h4>
       <p>{{_(teaching.desc)}}</p>
     </div>
   {% endfor %}
@@ -232,7 +251,7 @@ miscs:
   <h3>{{_('Misc Links')}}</h3>
   <ul class="misc-links">
   {% for link in doc.miscs %}
-    <li><a href="{{_(link.url)}}" target="_blank">{{_(link.name)}}</a></li>
+    <li><a href="{{link.url}}" target="_blank">{{_(link.name)}}</a></li>
   {% endfor %}
   </ul>
 

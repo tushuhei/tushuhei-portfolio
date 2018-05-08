@@ -38,7 +38,7 @@ msgstr ""
 "<a href=\"http://www.ai-gakkai.or.jp/about/award/jsai_award-"
 "conf-s/#CONFERENCE_S\" target=\"_blank\">学生奨励賞</a>"
 
-#: /content/pages/home.html:34
+#: /content/pages/home.html:38
 msgid "About - Shuhei Iitsuka <span class=\"ww\">飯塚 修平</span>"
 msgstr "飯塚 修平 (Shuhei Iitsuka)"
 
@@ -72,8 +72,12 @@ msgid ""
 msgstr "東京大学工学部システム創成学科知能社会システムコース"
 
 #: /content/pages/home.html
+msgid "Blog"
+msgstr ""
+
+#: /content/pages/home.html
 msgid "Brand Studio APAC Web Developer / UX Engineer"
-msgstr "ブランドスタジオ APAC ウェブデベロッパー / UX エンジニア"
+msgstr "Brand Studio APAC ウェブデベロッパー / UX エンジニア"
 
 #: /content/pages/home.html
 msgid "Budou"
@@ -90,7 +94,7 @@ msgstr ""
 " href=\"https://github.com/remka/responsive-devices\">Responsive Device "
 "Animation</a>"
 
-#: /content/pages/home.html:81
+#: /content/pages/home.html:85
 msgid "Contacts"
 msgstr "連絡先"
 
@@ -110,9 +114,25 @@ msgstr "国内学会"
 msgid "Dumsco Inc."
 msgstr ""
 
-#: /content/pages/home.html:44
+#: /content/pages/home.html:48
 msgid "Education"
 msgstr "学歴"
+
+#: /content/pages/home.html
+msgid "Emoji Scavenger Hunt"
+msgstr "Emoji Scavenger Hunt"
+
+#: /content/pages/home.html
+msgid ""
+"Emoji Scavenger Hunt is a browser-based game built with machine learning "
+"technology that uses your phone’s camera and a neural network to try and "
+"guess what it’s seeing. This is an example of creative application of "
+"\"front-end\" machine learning running on <a "
+"href=\"https://js.tensorflow.org/\" target=\"_blank\">TensorFlow.js</a>."
+msgstr ""
+"Emoji Scavenger Hunt（絵文字借り物競争）はスマートフォンのカメラと機械学習技術を使ってお題の品物を探すゲームです。<a "
+"href=\"https://js.tensorflow.org/\" target=\"_blank\">TensorFlow.js</a> "
+"を使って機械学習モデルをブラウザの上で走らせることで、機械学習技術を活用した、たのしいユーザ体験を提供します。"
 
 #: /content/pages/home.html
 msgid "Executive Officer"
@@ -125,6 +145,19 @@ msgid ""
 msgstr "UT Startup Gym の代表として、ウェブサービスを企画して立ち上げる力を養成する勉強会を学生・社会人向けに運営していました。"
 
 #: /content/pages/home.html
+msgid "Gboard Physical Handwriting Version"
+msgstr "Gboard 物理手書きバージョン"
+
+#: /content/pages/home.html
+msgid ""
+"Gboard Physical Handwriting Version is yet another input device which reads "
+"your scribble on your keyboard using machine learning technology. You don't "
+"need to remember QWERTY anymore. Just write it."
+msgstr "Gboard 物理手書きバージョンは、キーボードに書かれた文字を機械学習技術を使って読み取ることで"
+"直感的な文字入力を可能にします。これでもうキーボード配列を覚える必要はありません。"
+"※ 本当に動きます。"
+
+#: /content/pages/home.html
 msgid "Global Consumer Intelligence, The University Of Tokyo"
 msgstr "東京大学 グローバル消費インテリジェンス寄付講座"
 
@@ -132,7 +165,7 @@ msgstr "東京大学 グローバル消費インテリジェンス寄付講座"
 msgid "Google"
 msgstr ""
 
-#: /views/base.html:35
+#: /views/base.html:36
 msgid ""
 "I build <span class=\"headline-code-color\">websites</span>, write <span "
 "class=\"headline-website-color\">papers</span>, and make some <span class"
@@ -143,7 +176,7 @@ msgstr ""
 "color\">論文</span>と</span><span class=\"ww\"><span class=\"headline-latte-"
 "color\">ラテアート</span>を</span><span class=\"ww\">描いてます。</span>"
 
-#: /views/base.html:34
+#: /views/base.html:35
 msgid "I build websites, write papers, and make some latte art."
 msgstr "コードと論文とラテアートを描いてます。"
 
@@ -188,7 +221,25 @@ msgstr ""
 "保住 純, 飯塚 修平, 中山 浩太郎, 高須 正和, 嶋田 絵理子, 須賀 千鶴, 西山 圭太, 松尾 豊. "
 "Webマイニングを用いたコンテンツ消費トレンド予測システム, 人工知能学会論文誌 Vol.29 No.5 p.449-459. 2014."
 
-#: /content/pages/home.html:83
+#: /content/pages/home.html
+msgid ""
+"Koichiro Tamura, Katsuya Uenoyama, Shuhei Iitsuka, Yutaka Matsuo. \"Model for"
+" Evaluation of Stock Values by Ensemble Model Using Deep Learning.\" "
+"Transactions of the Japanese Society for Artificial Intelligence. Vol.33 No.1"
+" pp.A-H51_1-11. 2018."
+msgstr ""
+"田村 浩一郎, 上野山 勝也, 飯塚 修平, 松尾 豊. 深層学習を用いたアンサンブルモデルによる株主価値推定モデルの提案,人工知能学会論文誌 "
+"Vol.33 No.1 pp.A-H51_1-11. 2018."
+
+#: /content/pages/home.html
+msgid "Machine Learning & UX Engineer"
+msgstr "機械学習 & UX エンジニア"
+
+#: /content/pages/home.html
+msgid "Machine Learning Engineer"
+msgstr "機械学習エンジニア"
+
+#: /content/pages/home.html:87
 msgid "Mail"
 msgstr "メール"
 
@@ -202,7 +253,7 @@ msgstr "東京大学工学系研究科技術経営戦略学専攻 修士課程"
 msgid "Meikei Junior High &amp; High School"
 msgstr "私立茗溪学園中学校・高等学校"
 
-#: /content/pages/home.html:74
+#: /content/pages/home.html:78
 msgid "Misc Links"
 msgstr "その他リンク"
 
@@ -229,19 +280,19 @@ msgid ""
 "University of Tokyo"
 msgstr "東京大学工学系研究科技術経営戦略学専攻 博士課程"
 
-#: /content/pages/home.html:60
+#: /content/pages/home.html:64
 msgid "Programming Skills"
 msgstr "プログラミングスキル"
 
 #: /content/pages/home.html
 msgid "Project Lead"
-msgstr ""
+msgstr "プロジェクトリード"
 
-#: /content/pages/home.html:22
+#: /content/pages/home.html:26
 msgid "Publications"
-msgstr "出版"
+msgstr "論文"
 
-#: /content/pages/home.html:14
+#: /content/pages/home.html:18
 msgid "Role"
 msgstr "役割"
 
@@ -267,7 +318,7 @@ msgid ""
 "Intelligence. 2016."
 msgstr "龍野 翔, 飯塚 修平, 松尾 豊. ウェブサイトのユーザ遷移に基づいたコンバージョン促進要因の抽出. 人工知能学会全国大会. 2016."
 
-#: /content/pages/home.html:35 /views/base.html:33
+#: /content/pages/home.html:39 /views/base.html:34
 msgid "Shuhei Iitsuka"
 msgstr "飯塚 修平"
 
@@ -371,7 +422,7 @@ msgid ""
 "thesis)"
 msgstr "ウェブサイト最適化問題の定式化と解法に関する研究（博士論文）"
 
-#: /views/base.html:39
+#: /views/base.html:40
 msgid ""
 "Shuhei creates innovative websites through logical and analytical manner.\n"
 "      He is also a passionate lifetime learner to seek opportunities to bring"
@@ -385,7 +436,11 @@ msgstr ""
 msgid "Software Engineer"
 msgstr "ソフトウェアエンジニア"
 
-#: /content/pages/home.html:51
+#: /content/pages/home.html
+msgid "Survey Notebook"
+msgstr ""
+
+#: /content/pages/home.html:55
 msgid "Teaching Experience"
 msgstr "教歴"
 
@@ -397,15 +452,15 @@ msgstr ""
 msgid "Web Engineering and Business Model, the University of Tokyo"
 msgstr "東京大学 ウェブ工学とビジネスモデル"
 
+#: /content/pages/home.html:2
+msgid "Works"
+msgstr "制作物"
+
 #: /content/pages/home.html
 msgid "Webmaster Internship"
 msgstr "ウェブマスター インターンシップ"
 
-#: /content/pages/home.html:2
-msgid "Website Works"
-msgstr "ウェブサイト制作"
-
-#: /content/pages/home.html:37
+#: /content/pages/home.html:41
 msgid "Work Experience"
 msgstr "職歴"
 

@@ -36,7 +36,7 @@ msgid ""
 "conf-s/#CONFERENCE_S\" target=\"_blank\">Student Award</a>"
 msgstr ""
 
-#: /content/pages/home.html:34
+#: /content/pages/home.html:38
 msgid "About - Shuhei Iitsuka <span class=\"ww\">飯塚 修平</span>"
 msgstr ""
 
@@ -70,6 +70,10 @@ msgid ""
 msgstr ""
 
 #: /content/pages/home.html
+msgid "Blog"
+msgstr ""
+
+#: /content/pages/home.html
 msgid "Brand Studio APAC Web Developer / UX Engineer"
 msgstr ""
 
@@ -85,7 +89,7 @@ msgid ""
 "Device Animation</a>"
 msgstr ""
 
-#: /content/pages/home.html:81
+#: /content/pages/home.html:85
 msgid "Contacts"
 msgstr ""
 
@@ -105,8 +109,21 @@ msgstr ""
 msgid "Dumsco Inc."
 msgstr ""
 
-#: /content/pages/home.html:44
+#: /content/pages/home.html:48
 msgid "Education"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "Emoji Scavenger Hunt"
+msgstr ""
+
+#: /content/pages/home.html
+msgid ""
+"Emoji Scavenger Hunt is a browser-based game built with machine learning "
+"technology that uses your phone’s camera and a neural network to try and "
+"guess what it’s seeing. This is an example of creative application of "
+"\"front-end\" machine learning running on <a "
+"href=\"https://js.tensorflow.org/\" target=\"_blank\">TensorFlow.js</a>."
 msgstr ""
 
 #: /content/pages/home.html
@@ -120,6 +137,17 @@ msgid ""
 msgstr ""
 
 #: /content/pages/home.html
+msgid "Gboard Physical Handwriting Version"
+msgstr ""
+
+#: /content/pages/home.html
+msgid ""
+"Gboard Physical Handwriting Version is yet another input device which reads "
+"your scribble on your keyboard using machine learning technology. You don't "
+"need to remember QWERTY anymore. Just write it."
+msgstr ""
+
+#: /content/pages/home.html
 msgid "Global Consumer Intelligence, The University Of Tokyo"
 msgstr ""
 
@@ -127,14 +155,14 @@ msgstr ""
 msgid "Google"
 msgstr ""
 
-#: /views/base.html:35
+#: /views/base.html:36
 msgid ""
 "I build <span class=\"headline-code-color\">websites</span>, write <span "
 "class=\"headline-website-color\">papers</span>, and make some <span class"
 "=\"headline-latte-color\">latte art</span>."
 msgstr ""
 
-#: /views/base.html:34
+#: /views/base.html:35
 msgid "I build websites, write papers, and make some latte art."
 msgstr ""
 
@@ -173,7 +201,23 @@ msgid ""
 "Artificial Intelligence. Vol.29 No.5 pp.449-459. 2014."
 msgstr ""
 
-#: /content/pages/home.html:83
+#: /content/pages/home.html
+msgid ""
+"Koichiro Tamura, Katsuya Uenoyama, Shuhei Iitsuka, Yutaka Matsuo. \"Model for"
+" Evaluation of Stock Values by Ensemble Model Using Deep Learning.\" "
+"Transactions of the Japanese Society for Artificial Intelligence. Vol.33 No.1"
+" pp.A-H51_1-11. 2018."
+msgstr ""
+
+#: /content/pages/home.html
+msgid "Machine Learning & UX Engineer"
+msgstr ""
+
+#: /content/pages/home.html
+msgid "Machine Learning Engineer"
+msgstr ""
+
+#: /content/pages/home.html:87
 msgid "Mail"
 msgstr ""
 
@@ -187,7 +231,7 @@ msgstr ""
 msgid "Meikei Junior High &amp; High School"
 msgstr ""
 
-#: /content/pages/home.html:74
+#: /content/pages/home.html:78
 msgid "Misc Links"
 msgstr ""
 
@@ -214,7 +258,7 @@ msgid ""
 "University of Tokyo"
 msgstr ""
 
-#: /content/pages/home.html:60
+#: /content/pages/home.html:64
 msgid "Programming Skills"
 msgstr ""
 
@@ -222,11 +266,11 @@ msgstr ""
 msgid "Project Lead"
 msgstr ""
 
-#: /content/pages/home.html:22
+#: /content/pages/home.html:26
 msgid "Publications"
 msgstr ""
 
-#: /content/pages/home.html:14
+#: /content/pages/home.html:18
 msgid "Role"
 msgstr ""
 
@@ -250,7 +294,7 @@ msgid ""
 "Intelligence. 2016."
 msgstr ""
 
-#: /content/pages/home.html:35 /views/base.html:33
+#: /content/pages/home.html:39 /views/base.html:34
 msgid "Shuhei Iitsuka"
 msgstr ""
 
@@ -349,7 +393,7 @@ msgid ""
 "thesis)"
 msgstr ""
 
-#: /views/base.html:39
+#: /views/base.html:40
 msgid ""
 "Shuhei creates innovative websites through logical and analytical manner.\n"
 "      He is also a passionate lifetime learner to seek opportunities to bring"
@@ -361,7 +405,11 @@ msgstr ""
 msgid "Software Engineer"
 msgstr ""
 
-#: /content/pages/home.html:51
+#: /content/pages/home.html
+msgid "Survey Notebook"
+msgstr ""
+
+#: /content/pages/home.html:55
 msgid "Teaching Experience"
 msgstr ""
 
@@ -373,15 +421,15 @@ msgstr ""
 msgid "Web Engineering and Business Model, the University of Tokyo"
 msgstr ""
 
+#: /content/pages/home.html:2
+msgid "Web Works"
+msgstr ""
+
 #: /content/pages/home.html
 msgid "Webmaster Internship"
 msgstr ""
 
-#: /content/pages/home.html:2
-msgid "Website Works"
-msgstr ""
-
-#: /content/pages/home.html:37
+#: /content/pages/home.html:41
 msgid "Work Experience"
 msgstr ""
 
