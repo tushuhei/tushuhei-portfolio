@@ -23,8 +23,8 @@ msgid "2012.8-2012.11"
 msgstr ""
 
 #: /content/pages/home.html
-msgid "2014-present"
-msgstr "2014-現在"
+msgid "2014-2017"
+msgstr "2014-2017"
 
 #: /content/pages/home.html
 msgid "2014.4-present"
@@ -276,7 +276,7 @@ msgstr "その他"
 
 #: /content/pages/home.html
 msgid ""
-"PhD candidate at the Department of Technology Management for Innovation, The "
+"PhD degree of engineering at the Department of Technology Management for Innovation, The "
 "University of Tokyo"
 msgstr "東京大学工学系研究科技術経営戦略学専攻 博士課程"
 
